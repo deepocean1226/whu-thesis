@@ -7,6 +7,8 @@
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage[normalem]{ulem}
+\usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
 \useunder{\uline}{\ul}{}
 % 注释掉下面这行编译出来的即为插入空白页，不注释则为不插入空白页
 \renewcommand{\cleardoublepage}{\clearpage}
@@ -15,8 +17,8 @@
   {
     info               =
       {
-        title          = {跨设备下的知识图谱\\表示学习研究},
-        title*         = {Cross-device knowledge graph \\ represents learning research},
+        title          = {跨域知识图谱的知识\\表示学习研究},
+        title*         = {Cross-domain knowledge graph \\ represents learning research},
 %%%%% ------------------------------------------------------------------- %%%%%
         student-number = {2021282110124},
         school         = {计算机学院},
@@ -45,8 +47,8 @@
         direction      = {自然语言处理},%%%%
         direction*     = {Natural Language Processing},%%%%
         % date           = {2022/5},
-        keywords       = {表示学习, 本体嵌入, 元学习 ,图神经网络, 归纳推理},
-        keywords*      = {presentation learning, ontology embedding, meta-learning, graph neural networks, inductive reasoning},
+        keywords       = {知识表示学习, 本体嵌入, 元学习 ,图神经网络, 归纳推理},
+        keywords*      = {knowledge presentation learning, ontology embedding, meta-learning, graph neural networks, inductive reasoning},
       },
     style              =
       {
@@ -73,10 +75,12 @@
 \begin{document}
 %%----------- 主体部分 ----------- %%
 \include{pages/chapter1_my}
-\include{pages/chapter2_my}
-\include{pages/chapter3_my}
-\include{pages/chapter4_my}
-\include{pages/chapter5_my}
+\include{pages/chapter2_my_new}
+\include{pages/chapter3_my_new}
+\include{pages/chapter4_my_new}
+% \include{pages/chapter3_my}
+\include{pages/chapter5_my_new}
+\include{pages/chapter6_my_new}
 % \include{pages/chapter1}
 % \include{pages/chapter2}
 % \include{pages/chapter3}
