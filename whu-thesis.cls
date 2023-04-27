@@ -239,7 +239,7 @@
       {
         \tl_gset_eq:NN \g__whu_head_odd_tl \g__whu_info_title_tl
         \tl_gremove_all:Nn \g__whu_head_odd_tl { \\ }
-        \tl_gset:Nn \g__whu_head_even_tl { 武汉大学硕士学位论文 }
+        \tl_gset:Nn \g__whu_head_even_tl { 武汉大学硕士专业学位论文 }
       }
 
     % 默认页面页眉页脚样式
